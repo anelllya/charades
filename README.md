@@ -21,10 +21,19 @@ A heads-up charades party game in a single HTML file. No ads, no packs, no paywa
 
 Tilt needs a motion sensor and an HTTPS page; on iOS, tap **Allow** when asked for motion access.
 
+## Project layout
+
+- `index.html`: page markup
+- `style.css`: styles
+- `app.js`: game logic
+- `words.json`: categories and word lists (English `w_en`, Spanish `w_es`). Add words here.
+
 ## Run locally
 
-It's one file with no build step. Open `index.html` in a browser, or serve it:
+No build step, but `words.json` is fetched, so serve the folder instead of opening the file directly:
 
 ```sh
 python3 -m http.server 8000
 ```
+
+Then open http://localhost:8000.
