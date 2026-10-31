@@ -11,7 +11,7 @@ A heads-up charades party game in a single HTML file. No ads, no packs, no paywa
 - Tilt controls (phone on your forehead) or tap controls
 - Kids mode with family-friendly categories
 - "Mix it up" category and your own custom word list (saved on your device)
-- Works offline once loaded; add it to your home screen to run full screen
+- Add it to your home screen to run full screen
 
 ## How to play
 
